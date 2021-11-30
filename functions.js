@@ -65,7 +65,7 @@ Output:
 
 export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
     if(secondNumber === 0) {
-        return 'Not Possible divide by Zero Error'
+        return 'Not Possible divide by Zero Error';
     } else {
         let numTotal = (firstNumber / secondNumber) * thirdNumber;
         return numTotal.toFixed(2);
@@ -104,7 +104,7 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    let numToString = firstNumber.toString() + secondNumber.toString() + thirdNumber.toString()
+    let numToString = firstNumber.toString() + secondNumber.toString() + thirdNumber.toString();
     return numToString;
 }
 
@@ -174,6 +174,6 @@ export function getLastItem(array) {
 // Ask yourself: even if you cannot predict the result exactly, what _do_ you know about what it should return? Use that expectation to write your test
 
 export function getRandomNumber() {
-    let num = Math.floor(Math.random() * 5)
+    let num = Math.floor(Math.random() * 5);
     return num;
 }

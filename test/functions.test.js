@@ -186,23 +186,23 @@ test('getLastItem should return the last item in an array', (expect) => {
 
 
 // test case for getRandomNumber function
-// test('getRandomNumber should return the last item in an array', (expect) => {
-//     const expected = 1 || 2 || 3 || 4 || 5;
+test('getRandomNumber should return the last item in an array', (expect) => {
+    const expected = typeof 5;
 
-//     const actual = getRandomNumber();
+    const actual = getRandomNumber();
 
-//     const expected1 = 1 || 2 || 3 || 4 || 5;
+    const expected1 = 1 || 2 || 3 || 4 || 5;
 
-//     const actual1 = getRandomNumber();
+    const actual1 = getRandomNumber();
 
-//     const expected2 = 1 || 2 || 3 || 4 || 5;
+    const expected2 = 1 || 2 || 3 || 4 || 5;
 
-//     const actual2 = getRandomNumber();
+    const actual2 = getRandomNumber();
 
-//     expect.equal(actual, expected, 'Your number should be a value between 1 and 5');
-//     expect.equal(actual1, expected1, 'our number should be a value between 1 and 5');
-//     expect.equal(actual2, expected2, 'our number should be a value between 1 and 5');
-// });
+    expect.equal(typeof actual, expected, 'Your number should be a value between 1 and 5');
+    expect.equal(5 > actual1 > 0, 5 > expected1 > 0, 'our number should be a value between 1 and 5');
+    expect.equal(5 > actual2 > 0, 5 > expected2 > 0, 'our number should be a value between 1 and 5');
+});
 
 
 skip('this test should be skipped', (expect) => {
